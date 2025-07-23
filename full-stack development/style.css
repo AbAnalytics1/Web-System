@@ -1,0 +1,233 @@
+.landingBody {
+  margin: 0;
+  padding: 0;
+
+  /* image taken from (Dylan4photography, 2021)*/
+  background: url("page1.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Transparent container (no blur) */
+.login-container {
+  background: transparent; /* Fully transparent */
+  padding: 40px 30px;
+  border-radius: 10px;
+  width: 320px;
+  text-align: center;
+}
+
+/* Heading */
+.login-container h2 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Input fields with box shadow to "pop out" */
+.login-container input[type="text"],
+.login-container input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #333333; /* Dark text inside input */
+  font-size: 14px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Pop-out effect */
+}
+
+/* Placeholder text */
+.login-container input::placeholder {
+  color: #666666;
+}
+
+/* Button group */
+.button-group {
+  display: flex;
+  margin-left: 10px;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+/* Buttons */
+/*code adapted from (Beautiful CSS Buttons Examples - CSS Scan, n.d.)*/
+.button-group button {
+  width: 48%;
+  padding: 12px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 5px;
+  color: #333333;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Pop-out buttons */
+  transition: background-color 0.3s;
+}
+/*end of adatped code*/
+
+.guest-access button {
+  width: 48%;
+  padding: 6px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 5px;
+  color: #333333;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Pop-out buttons */
+  transition: background-color 0.3s;
+}
+
+/* Button hover */
+.button-group button:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+/* Guest access link */
+.guest-access {
+  margin-top: 20px;
+}
+
+.guest-access a:hover {
+  color: #cccccc;
+}
+
+/*******************Universities page css*******************************/
+
+.universitiesBody {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  /* image taken from (Dylan4photography, 2021)*/
+  background: url("page1.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Header bar */
+.header-bar {
+  background-color: #1f2937;
+  color: #ffffff;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.welcome {
+  font-size: 20px;
+}
+
+/*code adapted from (Beautiful CSS Buttons Examples - CSS Scan, n.d.)*/
+.nav-buttons button {
+  background-color: #4caf50;
+  height: 40px;
+  width: 100px;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  margin-left: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+/*end of adapted code*/
+
+.nav-buttons button:hover {
+  background-color: #45a049;
+}
+
+/* Main container */
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+/* List containers */
+.list-container {
+  /* background: #ffffff; */
+  padding: 20px 25px;
+  border-radius: 10px;
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+  width: 500px;
+}
+
+.list-container h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #333333;
+  font-size: 18px;
+}
+
+/* Search bar */
+.list-container input[type="text"] {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* List items */
+.item-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 600px;
+  overflow-y: auto; /* Enable vertical scroll */
+}
+
+.item-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.item-text {
+  font-size: 14px;
+  color: #333333;
+}
+
+/* Buttons on the right */
+.item-btn {
+  padding: 6px 10px;
+  background-color: #2563eb; /* Blue */
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.3s;
+}
+
+.item-btn:hover {
+  background-color: #1e4db7;
+}
+
+/*code adapted from (Beautiful CSS Buttons Examples - CSS Scan, n.d.)*/
+.searchUniButton {
+  width: 20%;
+  /* padding: 2px; */
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 5px;
+  color: #333333;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Pop-out buttons */
+  transition: background-color 0.3s;
+  height: 35px;
+}
+/*end of adapted code*/

@@ -1,0 +1,21 @@
+
+
+W3Schools.com. (n.d.). https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp
+
+Kantor, I. (n.d.). Error handling, “try. . .catch.” https://javascript.info/try-catch
+
+W3Schools.com. (n.d.-b). https://www.w3schools.com/js/js_async.asp
+
+Kantor, I. (n.d.-b). FormData. https://javascript.info/formdata
+
+W3Schools.com. (n.d.-c). https://www.w3schools.com/jsref/api_fetch.asp
+
+Webbjocke. (2018, February 28). Web encryption and hashing in javascript with the crypto api - Webbjocke. Webbjocke. https://webbjocke.com/javascript-web-encryption-and-hashing-with-the-crypto-api/
+
+Dylan4photography. (2021, January 21). white and brown train on rail road near brown and white concrete building during daytime. Unsplash. https://unsplash.com/photos/white-and-brown-train-on-rail-road-near-brown-and-white-concrete-building-during-daytime-j7qAnG6aBdU
+
+Malik, K. (2023, June 5). How to use InnerHTML in JavaScript, plus alternate methods - CoderPad. CoderPad. https://coderpad.io/blog/development/javascript-innerhtml/
+
+Beautiful CSS buttons examples - CSS Scan. (n.d.). https://getcssscan.com/css-buttons-examples
+
+Admin. (2023, April 24). Enable CORS for multiple domains in PHP – No Better Tech – My Tech blog. https://www.leonidassavvides.com/blog/2023/04/enable-cors-for-multiple-domains-in-php/
